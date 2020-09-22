@@ -127,7 +127,7 @@ EndOfBuffer          none              none
 ErrorMsg             red               base3             reverse
 FoldColumn           base0             none
 Folded               base0             none              bold s=base03
-IncSearch            orange            none              standout
+IncSearch            orange            none              reverse
 LineNr               base01            none
 MatchParen           base3             base02            bold
 ModeMsg              blue              none
@@ -306,7 +306,7 @@ EndOfBuffer          none              none
 ErrorMsg             red               base03            reverse
 FoldColumn           base0             none
 Folded               base0             none              bold s=base03
-IncSearch            orange            none              standout
+IncSearch            orange            none              reverse
 LineNr               base01            none
 ModeMsg              blue              none
 MoreMsg              blue              none
