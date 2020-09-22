@@ -52,9 +52,9 @@ Include: _dark_terminal.colortemplate
 ; }}}
 ; Visibility (dark) {{{
 #if get(g:, '@optionprefix_visibility', '') ==# 'high'
-  CursorLineNr       orange            none              bold
-  NonText            orange            none              bold
-  SpecialKey         orange            none              reverse
+  CursorLineNr       cyan              none              bold
+  NonText            cyan              none              bold
+  SpecialKey         cyan              none              reverse
   SpellBad           violet            base2             t=underline,reverse g=undercurl,reverse s=red
   SpellCap           violet            base2             t=underline,reverse g=undercurl,reverse s=red
   SpellLocal         yellow            base2             t=underline,reverse g=undercurl,reverse s=red
@@ -77,7 +77,7 @@ Include: _dark_terminal.colortemplate
   SpellCap           violet            none              t=underline g=undercurl s=violet
   SpellLocal         yellow            none              t=underline g=undercurl s=yellow
   SpellRare          cyan              none              t=underline g=undercurl s=cyan
-  Title              orange            none              bold
+  Title              cyan              none              bold
 #endif
 ; }}}
 ; Cursor style (dark) {{{
@@ -154,8 +154,8 @@ CursorIM             none              fg
 Error                red               base3             bold,reverse
 Identifier           blue              none
 Ignore               none              none
-PreProc              orange            none
-Special              orange            none
+PreProc              cyan              none
+Special              cyan              none
 Statement            green             none
 Todo                 magenta           none              bold
 Type                 yellow            none
@@ -226,14 +226,14 @@ Include: _light_terminal.colortemplate
     Cursor           base03            red
   #endif
   CursorLineNr       red               none              bold
-  MatchParen         orange            base02            bold,underline
+  MatchParen         cyan              base02            bold,underline
   NonText            red               none              bold
   SpecialKey         red               none              reverse
   SpellBad           violet            base02            t=underline,reverse g=undercurl,reverse s=red
   SpellCap           violet            base02            t=underline,reverse g=undercurl,reverse s=red
   SpellLocal         yellow            base02            t=underline,reverse g=undercurl,reverse s=orange
   SpellRare          cyan              base02            t=underline,reverse g=undercurl,reverse s=orange
-  Title              orange            none              bold
+  Title              cyan              none              bold
 #elseif get(g:, '@optionprefix_visibility', '') ==# 'low'
   #if get(g:, '@optionprefix_old_cursor_style', 0)
     Cursor           base03            base0
@@ -263,7 +263,7 @@ Include: _light_terminal.colortemplate
   SpellCap           violet            none              t=underline g=undercurl s=violet
   SpellLocal         yellow            none              t=underline g=undercurl s=yellow
   SpellRare          cyan              none              t=underline g=undercurl s=cyan
-  Title              orange            none              bold
+  Title              cyan              none              bold
 #endif
 ; }}}
 ; Diff mode (light) {{{
@@ -332,8 +332,8 @@ CursorIM             none              fg
 Error                red               base03            bold,reverse
 Identifier           blue              none
 Ignore               none              none
-PreProc              orange            none
-Special              orange            none
+PreProc              cyan              none
+Special              cyan              none
 Statement            green             none
 Todo                 magenta           none              bold
 Type                 yellow            none
